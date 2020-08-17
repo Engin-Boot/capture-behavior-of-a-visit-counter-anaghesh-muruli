@@ -11,7 +11,7 @@ Scenario: Show patient visits during working days and holidays
 Scenario: Compute parking slots to reserve for visiting specialists
 
   Given the visiting specialist is visiting the hospital by a vehical
-  And requires a parking slot 
+  And requires a parking slot
   And the person's schedule is known
   And parking slot counter is set to zero
   When the specialist enters the hospital
